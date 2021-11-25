@@ -1,0 +1,46 @@
+nav{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+}
+.btn{
+    display: inline-block;
+    padding: 20px;
+    margin-right: 3px ;
+    margin-left: 3px;
+    background-color: rgb(17, 100, 66);
+    
+    
+}
+
+
+}
+/*sélectionne les boutons films et jeux mais moins évident à comprendre quin nom symbolique tels que .btn
+nav>ul>li{  */
+.btn ul{
+    display: none;
+}
+.btn > ul{
+    display: none;
+    position: absolute;
+    
+}
+.btn:hover > ul{
+    display: block ;
+    background-color: rgb(17, 184, 120);
+}
+.btn > ul > li
+{
+    padding: 20px;
+}
+.btn:hover{
+    background-color: rgb(17, 184, 120);
+}
+.btn > ul > li:hover{
+    background-color: rgb(17, 100, 66);
+}
