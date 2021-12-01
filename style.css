@@ -44,3 +44,20 @@ nav>ul>li{  */
 .btn > ul > li:hover{
     background-color: rgb(17, 100, 66);
 }
+td+td+td {
+    background-color: burlywood;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+  }
+  .contenu {
+    background-color: lightgray;
+    list-style-type:lower-roman;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  iframe {
+    width: 550px;
+    height: 307px;
+  }
