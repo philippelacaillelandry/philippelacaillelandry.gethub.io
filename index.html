@@ -1,73 +1,126 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title> systeme solaire </title>
             <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-     <header> <h1>Top 2 film</h1> 
-    <hr>
-    <!--bar de navigation-->
-    <nav>
-        <ul>
-            <li class="btn">
-                Films
-                <ul>
-                    <li>Action</li>                
-                    <li>Comedie</li>                  
-                    <li>Drame</li>
+     <header> <h1 class="firstTitle">systeme solaire  </h1> 
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+              <li><a href='index.html'>Home</a></li>
+              <li><a class='dropdown-arrow'>spaceX</a>
+                <ul class='sub-menus'>
+                  <li><a href='conquêtespatial.html'> history</a></li>
+                  <li><a href='technologie.html'>technologie</a></li>
+                  <li><a href='Biographie.html'>biographie Elon Musk</a></li>
+                  
                 </ul>
+                <li><a href='websitesources.html'>source</a></li>
+              
+          </nav>
+        <div class="gridpage1">
+            <div class="div1">
+                <table>
+                    <tr>
+                        <td>
+                        Soleil
+                        </td>
+                        <td><img src="images/soleil.png"> </td>
+                        <td>Le soleil est l'étoile central autour de laquelle les planète tourne en orbite.
+                             Sa température est de plusieurs milliers de degrés </td>
+                    </tr>
+                 
+                    
+                  
+                    <tr>
+                        <td>
+                        Mercure
+                        </td>
+                        <td><img src="images/mercure.png" ></td>
+                        <td>mercure est la planète la plus proche du soleil. on peut parfois l'apercevoir de la terre.
+                            elle est reconnu pour avoir la rotation la plus rapide du système solaire.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Venus
+                        </td>
+                        <td><img src="images/venus.png"></td>
+                        <td>Venus est la deuxième planète en terme d'éloignement par rapport au soleil.
+                            Particulièrement aux autres, elle tourne dans le sens opposé. 
+                            #Elle possède l'orbite la plus circulaire du système solaire.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Terre
+                        </td>
+                        <td><img src="images/terre.png" ></td>
+                        <td>La terre est la troisième planete en ordre d'éloignement par rapport au soleil.
+                             Comme nous la connaissons la terre habite plus de 7 milliards d'habitants </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Mars
+                        </td>
+                        <td><img src="images/mars.png"></td>
+                        <td>Mars est la 4iem planète en terme d'éloignement par rapport au soleil. 
+                            Son cycle de rotation correspond a 668 jour soit 1.88 année terrestre. </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Jupiter
+                        </td>
+                        <td><img src="images/jupiter.png"></td>
+                        <td>Jupiter est la 5ieme planète en terme d'éloignement par rapport au soleil.
+                             Elle est aussi la planète ayant le plus grand rayon avec 69 911 km  </td>
+                    </tr>
+                 
+                    <tr>
+                        <td>
+                        saturne
+                        </td>
+                        <td><img src="images/saturne.png" ></td>
+                        <td>Saturne est la 6ieme planète en terme d'éloignement par rapport au soleil.
+                            Elle est plus célèbrement connu à cause de son anneau qui l'entoure.
+                             La composition de son anneau, glace et poussière spatiale.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Uranus
+                        </td>
+                        <td><img src="images/uranus.png" ></td>
+                        <td>Uranus est la 7ieme planète en terme d'éloignement par rapport au soleil.
+                            Son atmosphère planétaire est la plus froide du Système solaire. Son intérieur est composé
+                            principalement de glace.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        Neptune
+                        </td>
+                        <td><img src="images/neptune.png" ></td>
+                        <td>Neptune est la dernière planète en terme d'éloignement par rapport au soleil.
+                            Elle orbite autour du soleil à une distance de 4,5 milliards de kilomètres. 
+                            Elle est aussi la seul planète à avoir été découverte par déduction plutot qu'en obeservation.
+        
+                        </td>
+                    </tr>
+                   
+                    
+                </table>  
+            </div>
+            <div class="div2"> 
+                <p>
+                   <a href="https://solarsystem.nasa.gov/">solar system</a> 
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5l6eOsFCTkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
 
-            </li>
-
-            <li class="btn">
-                Jeux 
-                <ul>
-                    <li>Action</li>
-                    <li>Combat</li>  
-                    <li>Rpg</li>                    
-                    <li>Simulation</li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    
-    <table class="contenu">
-        <tr>
-          <td>
-            <h3>Matrix 4</h3>
-            <iframe src="https://www.youtube.com/embed/9ix7TUGVYIo" allowfullscreen></iframe>
-          </td>
-          <td>
-            John Wick se fait isekai dans un MMO
-            <ol>
-              <li>Yé cool</li>
-              <li>Yé fort</li>
-              <li>C'est Keanu Reaves</li>
-            </ol>
-          </td>
-          <td>
-            « Néo, c'est des Smarties, pas des pillules. »
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <h3>Un autre Resident Evil apparamment</h3>
-            <iframe src="https://www.youtube.com/embed/4q6UGCyHZCI" allowfullscreen></iframe>
-          </td>
-          <td>
-            Le résident du mal n'a pas encore payé son loyer. La police débarque.
-            <ol>
-              <li>Ya des zombies</li>
-              <li>Ya des guns</li>
-              <li>C'est Resident Evil</li>
-            </ol>
-          </td>
-          <td>
-            « Depuis je suis zombie, ma vie est fantastique ! J'ai mangé mon boss au Costco ! »
-          </td>
-        </tr>
-      </table>
+        
     </body>
-  </html>
-  
-    
+</html>
